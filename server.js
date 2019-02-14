@@ -16,17 +16,6 @@ const app = express();
 // log the http layer
 app.use(morgan('common'));
 
-
-
-
-
-////////////////// TEST
-
-
-
-
-
-
 // we're going to add some items to ShoppingList
 // so there's some data to look at. Note that 
 // normally you wouldn't do this. Usually your
